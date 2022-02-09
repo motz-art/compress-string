@@ -1,0 +1,31 @@
+{
+  "name": "compress-string",
+  "version": "1.0.0",
+  "description": "RLE compression that produces string as a result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motz-art/compress-string.git"
+  },
+  "keywords": [
+    "compress",
+    "compression",
+    "strings",
+    "RLE",
+    "string",
+    "run",
+    "encoding",
+    "deduplicate",
+    "remove",
+    "duplicates"
+  ],
+  "author": "Oleg Oshkoderov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motz-art/compress-string/issues"
+  },
+  "homepage": "https://github.com/motz-art/compress-string#readme"
+}
