@@ -1,7 +1,7 @@
 import compressString from "../src/compressString.js";
 import decompressString from "../src/decompressString.js";
 
-const tests = 
+const tests =
 [
     ["", ""],
     ["abcdefg","abcdefg"],
@@ -9,7 +9,7 @@ const tests =
     ["`", "``"],
     ["AbcdAbcd","Abcd` #"],
     ["aaaaa","a`  "],
-    ["AbcdAbcdAbc", "Abcd`##"],
+    ["Abc,Abc,Abc", "Abc,`##"],
     ["ABcdBcdefABcdef","ABcdBcdefA`!%"]
 ];
 
